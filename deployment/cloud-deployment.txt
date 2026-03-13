@@ -1,0 +1,12 @@
+SkillSphere Cloud Deployment
+
+This document describes the deployment of the SkillSphere cloud infrastructure.
+
+The following cloud services are used in this project:
+
+-> AWS EC2 virtual machine to host the web application
+-> Docker container to run the application
+-> AWS RDS database to store student information
+-> AWS S3 storage to store course materials and files
+
+This infrastructure supports the SkillSphere online learning platform by providing scalable and reliable cloud services.

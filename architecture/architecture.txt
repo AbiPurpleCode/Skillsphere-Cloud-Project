@@ -1,0 +1,17 @@
+SkillSphere Cloud Architecture
+
+The proposed cloud architecture for the SkillSphere platform includes the following components:
+
+Users
+ |
+Internet
+ |
+AWS EC2 Virtual Machine
+ |
+Docker Container (Web Application)
+ |
+AWS RDS Database
+ |
+AWS S3 Storage
+
+This architecture allows the SkillSphere platform to host the learning application, store student data and manage course materials using scalable cloud services.

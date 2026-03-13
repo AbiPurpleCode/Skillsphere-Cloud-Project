@@ -13,10 +13,10 @@ Cloud Solution Recommendation
 Using cloud infrastructure allows the platform to scale automatically as user demand increases. Cloud services also provide better reliability, security and lower infrastructure management.
 
 Architecture
-Amazon EC2 (Elastic Compute Cloud) hosts the application server.
-Docker is used to run the Nginx web server container.
-Amazon RDS (Relational Database Service) stores user and course data.
-Amazon S3 (Simple Storage Service) stores course files and static assets.
+- Amazon EC2 (Elastic Compute Cloud) hosts the application server.
+- Docker is used to run the Nginx web server container.
+- Amazon RDS (Relational Database Service) stores user and course data.
+- Amazon S3 (Simple Storage Service) stores course files and static assets.
 
 Justification
 Cloud infrastructure provides scalability, high availability and reduced infrastructure management. Using EC2 allows flexible compute resources, RDS simplifies database management, and S3 provides reliable storage for large course files.

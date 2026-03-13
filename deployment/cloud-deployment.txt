@@ -1,12 +1,11 @@
-SkillSphere Cloud Deployment
+Cloud Deployment Steps for SkillSphere
 
-This document describes the deployment of the SkillSphere cloud infrastructure.
+1. Created an EC2 instance on AWS (Ubuntu Server).
+2. Connected to the instance using SSH through the AWS console.
+3. Installed Docker on the EC2 instance.
+4. Pulled and ran an Nginx container using Docker.
+5. Verified the web server by accessing the public IP in a browser.
+6. Created an Amazon RDS MySQL database for storing application data.
+7. Created an Amazon S3 bucket to store course files and static content.
+8. Verified that all services were running successfully.
 
-The following cloud services are used in this project:
-
--> AWS EC2 virtual machine to host the web application
--> Docker container to run the application
--> AWS RDS database to store student information
--> AWS S3 storage to store course materials and files
-
-This infrastructure supports the SkillSphere online learning platform by providing scalable and reliable cloud services.
